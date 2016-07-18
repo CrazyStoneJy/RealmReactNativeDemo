@@ -3,11 +3,11 @@
 ##First Step
  npm install -g rnpm  安装rnpm
 ##Scond Step 
-Create a new React Native project:
+...Create a new React Native project:
 react-native init <project-name>
 
-Change directories into the new project (cd <project-name>) and add the realm dependency:
+...Change directories into the new project (cd <project-name>) and add the realm dependency:
 npm install --save realm
 
-Next use rnpm to link your project to the realm native module.
+...Next use rnpm to link your project to the realm native module.
 rnpm link realm
